@@ -1,0 +1,22 @@
+{
+  "name": "TestRepoPod",
+  "version": "0.1.0",
+  "summary": "A short description of TestRepoPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/raj saija/TestRepoPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "raj saija": "raj.saija@mindinventory.com"
+  },
+  "source": {
+    "git": "https://github.com/raj saija/TestRepoPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TestRepoPod/Classes/**/*"
+}
