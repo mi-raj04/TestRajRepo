@@ -1,0 +1,6 @@
+framework module TestRajRepo {
+  umbrella header "TestRajRepo-umbrella.h"
+
+  export *
+  module * { export * }
+}

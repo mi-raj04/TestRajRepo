@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MyFirstPodRepo.xcscheme</key>
+		<key>Pods-TestRajRepo_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MyFirstPodRepo_Example.xcscheme</key>
+		<key>Pods-TestRajRepo_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MyFirstPodRepo_Tests.xcscheme</key>
+		<key>TestRajRepo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

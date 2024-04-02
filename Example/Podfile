@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '10.0'
 
-target 'MyFirstPodRepo_Example' do
-  pod 'MyFirstPodRepo', :path => '../'
+target 'TestRajRepo_Example' do
+  pod 'TestRajRepo', :path => '../'
 
-  target 'MyFirstPodRepo_Tests' do
+  target 'TestRajRepo_Tests' do
     inherit! :search_paths
 
     

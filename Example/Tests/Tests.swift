@@ -1,5 +1,5 @@
 import XCTest
-import MyFirstPodRepo
+import TestRajRepo
 
 class Tests: XCTestCase {
     

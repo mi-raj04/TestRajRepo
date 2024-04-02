@@ -1,6 +1,0 @@
-framework module MyFirstPodRepo {
-  umbrella header "MyFirstPodRepo-umbrella.h"
-
-  export *
-  module * { export * }
-}
