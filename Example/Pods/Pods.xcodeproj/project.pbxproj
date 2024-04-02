@@ -158,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				B81ADAE22BBC1ACE003ACA0B /* Logger.swift */,
+				B81ADAE42BBC1BA0003ACA0B /* Resources */,
 				558481C974A9A8C90B8E75F37482883B /* Pod */,
 				6A0608BD47DFE4F3EA3A25ED9F5C37C0 /* Support Files */,
 			);
@@ -168,7 +169,6 @@
 		97F69820586AB86894A4D730FA5D3794 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B81ADAE42BBC1BA0003ACA0B /* Repository */,
 				8F55CF012DDB5D986377A34F27661C5D /* MyFirstPodRepo */,
 			);
 			name = "Development Pods";
@@ -191,12 +191,12 @@
 			path = "Target Support Files/Pods-MyFirstPodRepo_Example";
 			sourceTree = "<group>";
 		};
-		B81ADAE42BBC1BA0003ACA0B /* Repository */ = {
+		B81ADAE42BBC1BA0003ACA0B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				B81ADAE52BBC1BAB003ACA0B /* flower.jpg */,
 			);
-			path = Repository;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -434,7 +434,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MyFirstPodRepo/MyFirstPodRepo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MyFirstPodRepo/MyFirstPodRepo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MyFirstPodRepo/MyFirstPodRepo.modulemap";
 				PRODUCT_MODULE_NAME = MyFirstPodRepo;
@@ -499,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,7 +526,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MyFirstPodRepo_Tests/Pods-MyFirstPodRepo_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MyFirstPodRepo_Tests/Pods-MyFirstPodRepo_Tests.modulemap";
@@ -559,7 +559,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MyFirstPodRepo_Example/Pods-MyFirstPodRepo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MyFirstPodRepo_Example/Pods-MyFirstPodRepo_Example.modulemap";
@@ -592,7 +592,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MyFirstPodRepo_Tests/Pods-MyFirstPodRepo_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MyFirstPodRepo_Tests/Pods-MyFirstPodRepo_Tests.modulemap";
@@ -663,7 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -692,7 +692,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MyFirstPodRepo_Example/Pods-MyFirstPodRepo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MyFirstPodRepo_Example/Pods-MyFirstPodRepo_Example.modulemap";
@@ -726,7 +726,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MyFirstPodRepo/MyFirstPodRepo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MyFirstPodRepo/MyFirstPodRepo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MyFirstPodRepo/MyFirstPodRepo.modulemap";
 				PRODUCT_MODULE_NAME = MyFirstPodRepo;
